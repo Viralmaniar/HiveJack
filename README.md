@@ -5,6 +5,14 @@ Often, this is a repetitive process, once an attacker gets system-level access o
 
 ![image](https://user-images.githubusercontent.com/3501170/79689138-2d9a1780-8296-11ea-9d7f-35a02ad7e41d.png)
 
+Files dumped in the *c:\\temp\\* folder of the compromised host:
+
+![image](https://user-images.githubusercontent.com/3501170/80096475-f769da00-85ac-11ea-99e1-e47dff224b4a.png)
+
+Files are successfully deleted from the compromised host upon clicking on the **Delete Hives** button:
+
+![image](https://user-images.githubusercontent.com/3501170/80096814-8aa30f80-85ad-11ea-9c1a-1559348c9f69.png)
+
 Any suggestions or ideas for this tool are welcome - just tweet me on [@ManiarViral](https://twitter.com/maniarviral)
 
 A hive is a logical group of keys, subkeys, and values in the registry that has a set of supporting files loaded into memory when the operating system is started or a user logs in.

@@ -5,6 +5,8 @@ Often, this is a repetitive process, once an attacker gets system-level access o
 
 ![image](https://user-images.githubusercontent.com/3501170/79689138-2d9a1780-8296-11ea-9d7f-35a02ad7e41d.png)
 
+Any suggestions or ideas for this tool are welcome - just tweet me on [@ManiarViral](https://twitter.com/maniarviral)
+
 A hive is a logical group of keys, subkeys, and values in the registry that has a set of supporting files loaded into memory when the operating system is started or a user logs in.
 
 Registry files have the following two formats:
@@ -15,7 +17,12 @@ Registry files have the following two formats:
 
 During an internal penetration test, the attacker often wants to perform a lateral movement from one host to the other. To move from one host to the other attacker often requires account credentials. Using **HiveJack** attacker would be able to gather credentials via system hives.
 
-**HiveJack** is useful once the attacker has successfully gained local admin or system privileges on one of the compromised hosts. To further gain access within the network attacker can use registry hives. Dumping these hives would allow an attacker to capture system users' password hashes.  
+**HiveJack** is useful once the attacker has successfully gained local admin or system privileges on one of the compromised hosts. To further gain access within the network attacker can use registry hives. Dumping these hives would allow an attacker to capture system users' password hashes. 
+
+# Questions?
+
+Twitter: https://twitter.com/maniarviral
+LinkedIn: https://au.linkedin.com/in/viralmaniar
 
 # Contribution & License
 

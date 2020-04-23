@@ -31,6 +31,14 @@ Upon dumping the registry hives and pulling it on the attacking box one can use 
 
 ![image](https://user-images.githubusercontent.com/3501170/80098042-9394e080-85af-11ea-8a73-16a28cdff124.png)
 
+Once the password hashes are obtained it opens the doors to a variety of attacks such as pass-the-hash, spraying or password cracking to perform a lateral movement within the network.
+
+Once, password hashes are obtained it is a good practice to delete the files from the *temp* folder to avoid leaking of sensitive files or cleaning the traces.
+
+# Quick Tip
+
+It is a good practice to check the *C:\\Windows\\repair\\* location to obtain the SAM and SYSTEM files without dumping the registries to avoid detection from EDR solutions. However, this directory contains outdated copies of the original *C:\\Windows\\System32\\config\\* files so it might not reflect the current users' credentials. However, if the passwords are cracked it may be useful to know any password patterns such as **Winter2020** or **Summer2020**
+
 # How do I use this?
 
 **Method 1:** <br>

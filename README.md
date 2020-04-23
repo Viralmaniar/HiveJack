@@ -37,7 +37,7 @@ Once, password hashes are obtained it is a good practice to delete the files fro
 
 # Quick Tip
 
-It is a good practice to check the *C:\\Windows\\repair\\* location to obtain the SAM and SYSTEM files without dumping the registries to avoid detection from EDR solutions. However, this directory contains outdated copies of the original *C:\\Windows\\System32\\config\\* files so it might not reflect the current users' credentials. However, if the passwords are cracked it may be useful to know any password patterns such as **Winter2020** or **Summer2020**
+It is a good practice to check the *C:\\Windows\\repair\\* location to obtain the SAM and SYSTEM files to avoid detection from EDR solutions. However, this directory contains outdated copies of the original *C:\\Windows\\System32\\config\\* files so it might not reflect the current users' credentials. However, if the passwords are cracked it may be useful to know any password patterns such as **Winter2020** or **Summer2020**
 
 # How do I use this?
 

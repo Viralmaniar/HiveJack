@@ -27,6 +27,10 @@ During an internal penetration test, the attacker often wants to perform a later
 
 **HiveJack** is useful once the attacker has successfully gained local admin or system privileges on one of the compromised hosts. To further gain access within the network attacker can use registry hives. Dumping these hives would allow an attacker to capture system users' password hashes. 
 
+Upon dumping the registry hives and pulling it on the attacking box one can use a tool such as **secretsdump** available here: https://github.com/SecureAuthCorp/impacket/blob/master/examples/secretsdump.py
+
+![image](https://user-images.githubusercontent.com/3501170/80098042-9394e080-85af-11ea-8a73-16a28cdff124.png)
+
 # How do I use this?
 
 **Method 1:** <br>
@@ -36,7 +40,7 @@ Use a HiveJack.exe file from the release section (https://github.com/Viralmaniar
 Open the solution using **Visual Studio** and look at the code to build the solution.
 
 
-**Note:** Please make sure you have temp folder in the 'C:' Drive of the system before dumping the registry hives.
+**Note:** Please make sure you have a *temp* folder in the 'C:' Drive of the compromised host before dumping the registry hives.
 
 # Questions?
 

@@ -19,6 +19,10 @@ During an internal penetration test, the attacker often wants to perform a later
 
 **HiveJack** is useful once the attacker has successfully gained local admin or system privileges on one of the compromised hosts. To further gain access within the network attacker can use registry hives. Dumping these hives would allow an attacker to capture system users' password hashes. 
 
+# How do I use this?
+
+Use a HiveJack.exe file from the release section and run it on the compromised host. The hives will get stored at the *c:\\temp\\* folder.
+
 # Questions?
 
 Twitter: https://twitter.com/maniarviral <br>

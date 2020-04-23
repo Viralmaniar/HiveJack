@@ -29,7 +29,12 @@ During an internal penetration test, the attacker often wants to perform a later
 
 # How do I use this?
 
-Use a HiveJack.exe file from the release section and run it on the compromised host. The hives will get stored at the *c:\\temp\\* folder.
+**Method 1:**
+Use a HiveJack.exe file from the release section (https://github.com/Viralmaniar/HiveJack/releases/download/v1.0/HiveJack.exe) and run it on the compromised host. The hives will get stored at the *c:\\temp\\* folder.
+
+**Method 2:**
+Open the solution using **Visual Studio** and look at the code to build the solution.
+
 
 **Note:** Please make sure you have temp folder in the 'C:' Drive of the system before dumping the registry hives.
 

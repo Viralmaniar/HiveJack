@@ -33,7 +33,7 @@ Upon dumping the registry hives and pulling it on the attacking box one can use 
 
 Once the password hashes are obtained it opens the doors to a variety of attacks such as pass-the-hash, spraying or password cracking to perform a lateral movement within the network.
 
-Once, password hashes are obtained it is a good practice to delete the files from the *temp* folder to avoid leaking of sensitive files or cleaning the traces.
+When hive files are copied to the attacking machine it is a good practice to delete the files from the *temp* folder to avoid leaking of sensitive files or cleaning the traces.
 
 # Quick Tip
 
